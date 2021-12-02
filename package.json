@@ -1,7 +1,7 @@
 {
   "name": "@militer/create-template",
   "description": "@militer/create-template",
-  "version": "0.1.0-alpha",
+  "version": "1.0.0",
   "author": "Sergei MILITER <militer@htmlcssjs.pro> (https://htmlcssjs.pro)",
   "repository": {
     "type": "git",
