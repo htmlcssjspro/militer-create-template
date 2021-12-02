@@ -1,0 +1,37 @@
+{
+  "name": "@militer/create-template",
+  "description": "@militer/create-template",
+  "version": "0.1.0-alpha",
+  "author": "Sergei MILITER <militer@htmlcssjs.pro> (https://htmlcssjs.pro)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/htmlcssjspro/militer-create-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/htmlcssjspro/militer-create-template/issues"
+  },
+  "main": "index.js",
+  "bin": {
+    "@militer/create-template": "./bin/create-template.js",
+    "create-template": "./bin/create-template.js"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "create-template": "node tasks/create-template.js"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.3",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "eslint": "^8.3.0"
+  },
+  "dependencies": {}
+}
